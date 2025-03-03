@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Birthday Surprise</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script defer src="assets/js/script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+</head>
+<body>
+  <div class="page welcome active">
+    <h1 id="typewriter">Welcome to the Birthday Adventure 🎂</h1>
+    <button id="startButton">Start</button>
+  </div>
+
+  <div class="page birthday">
+    <h1>🎉 Happy Birthday, Yashila! 🎂</h1>
+    <p class="birthday-message">
+      On this special day, I want you to know that the world is brighter and more beautiful because you're in it. You are a rare blend of strength, kindness, and grace, and everyone who knows you is lucky to have you in their lives.  
+      <br><br>
+      May your journey ahead be filled with love, laughter, and endless opportunities. I wish for every step you take to be guided by joy and every challenge you face to be conquered by your unstoppable spirit.  
+      <br><br>
+      Today is not just a celebration of your birth but a reminder of how much you are cherished and loved. Enjoy every moment, every smile, and every beautiful surprise that comes your way.  
+      <br><br>
+      Here's to more magical memories, wild dreams coming true, and a life as radiant as your soul.  
+      <br><br>
+      ✨ Keep shining, keep smiling — you’re truly one of a kind! ✨  
+      <br><br>
+      Happy Birthday, Yashila! 🎁🎈  
+    </p>
+    <button id="nextButtonWish" class="fade-in">Next</button>
+    <button id="nextButton1">Next</button>
+    <button id="confettiButton" class="confetti-button">🎉</button>
+  </div>
+  
+  <div class="page celebration">
+    <h1>Let the Celebration Begin! 🎈</h1>
+    <p class="pre-message">
+      Hey, do you remember that letter I gave you last year? The one where I told you how much you inspired me, how you made me believe I could change my life? I promised you I’d prove it—that I wouldn’t just say it, but actually do it. Well, you did your job. You changed me. Truly. So much that the people around me noticed. They saw the difference, they felt it, and they started praising me for the person I’ve become. And it’s all because of you. You made me want to be better, and I can’t thank you enough for that
+    </p>
+    <button id="nextButton2">Next</button>
+    <button id="confettiButton" class="confetti-button">🎉</button>
+  </div>
+
+  <div class="page love">
+    <h1>A Message of Love ❤️</h1>
+    <div id="loveMeter"><span></span></div>
+    <p id="newMessage" class="hidden"></p>
+    <button id="nextButton3">Next</button>
+  </div>
+
+ 
+
+  <div class="page final-surprise">
+    <h1>Thank You for Being You 🎁</h1>
+    <button id="restartButton">Restart</button>
+  </div>
+
+  <audio id="bgMusic" loop>
+    <source src="assets/music/background1.mp3" type="audio/mpeg">
+  </audio>
+  <button id="soundButton" class="sound-button" style="display: none;">🔊</button>
+
+
+  
+</body>
+</html>
